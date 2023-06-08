@@ -24,7 +24,7 @@ resource "aws_lambda_layer_version" "logging_base" {
 }
 
 # -----------------------------------------------------------------
-# CREATE LAMBDA FUNCTION USING ZIP FILE 
+# CREATE LAMBDA FUNCTION USING ZIP FILE
 # -----------------------------------------------------------------
 
 # make zip
@@ -69,7 +69,7 @@ resource "aws_lambda_function" "sns_cloudwatchlog" {
 # -----------------------------------------------------------------
 # SNS TOPIC
 #   create new topic (if create_sns_topic set), else use existing topic
-#   arn referenced by "lambda_permssion" and "aws_sns_topic_subscription" 
+#   arn referenced by "lambda_permssion" and "aws_sns_topic_subscription"
 # -----------------------------------------------------------------
 
 # create if specified
@@ -192,7 +192,7 @@ resource "aws_cloudwatch_event_rule" "warmer" {
   schedule_expression = "rate(15 minutes)"
 }
 
-# set event target as sns_to_cloudwatch_logs lambda function 
+# set event target as sns_to_cloudwatch_logs lambda function
 resource "aws_cloudwatch_event_target" "warmer" {
   count = var.create_warmer_event ? 1 : 0
 
