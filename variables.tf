@@ -87,4 +87,3 @@ variable "lambda_tags" {
   description = "A mapping of tags to assign to Lambda Function."
   default     = {}
 }
-

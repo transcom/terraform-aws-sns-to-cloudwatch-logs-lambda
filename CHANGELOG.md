@@ -4,11 +4,11 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## [3.0.1] - 2020-08-08
+## \[3.0.1\] - 2020-08-08
 
 - Clarification on changes for Terraform 0.13
 
-## [3.0.0] - 2020-08-08
+## \[3.0.0\] - 2020-08-08
 
 **Breaking Change**
 
@@ -24,7 +24,7 @@ Bug Fix
 
 - fix error that could occur if `create_warmer_event` set to `false`
 
-## [2.0.1] - 2019-06-19
+## \[2.0.1\] - 2019-06-19
 
 - add Terraform 0.11/0.12 version compatibility info to README.md
 
@@ -96,17 +96,17 @@ Adjust outputs
 
 Initial Release
 
-[2.0.0]: https://github.com/robertpeteuil/terraform-aws-sns-to-cloudwatch-logs-lambda/compare/1.0.1...2.0.0
-[1.0.1]: https://github.com/robertpeteuil/terraform-aws-sns-to-cloudwatch-logs-lambda/compare/1.0.0...1.0.1
-[1.0.0]: https://github.com/robertpeteuil/terraform-aws-sns-to-cloudwatch-logs-lambda/compare/0.2.6...1.0.0
-[0.2.6]: https://github.com/robertpeteuil/terraform-aws-sns-to-cloudwatch-logs-lambda/compare/0.2.5...0.2.6
-[0.2.5]: https://github.com/robertpeteuil/terraform-aws-sns-to-cloudwatch-logs-lambda/compare/0.2.4...0.2.5
-[0.2.4]: https://github.com/robertpeteuil/terraform-aws-sns-to-cloudwatch-logs-lambda/compare/0.2.3...0.2.4
-[0.2.3]: https://github.com/robertpeteuil/terraform-aws-sns-to-cloudwatch-logs-lambda/compare/0.2.2...0.2.3
-[0.2.2]: https://github.com/robertpeteuil/terraform-aws-sns-to-cloudwatch-logs-lambda/compare/0.2.1...0.2.2
-[0.2.1]: https://github.com/robertpeteuil/terraform-aws-sns-to-cloudwatch-logs-lambda/compare/0.2.0...0.2.1
-[0.2.0]: https://github.com/robertpeteuil/terraform-aws-sns-to-cloudwatch-logs-lambda/compare/0.1.3...0.2.0
-[0.1.3]: https://github.com/robertpeteuil/terraform-aws-sns-to-cloudwatch-logs-lambda/compare/0.1.2...0.1.3
-[0.1.2]: https://github.com/robertpeteuil/terraform-aws-sns-to-cloudwatch-logs-lambda/compare/0.1.1...0.1.2
-[0.1.1]: https://github.com/robertpeteuil/terraform-aws-sns-to-cloudwatch-logs-lambda/compare/0.1.0...0.1.1
 [0.1.0]: https://github.com/robertpeteuil/terraform-aws-sns-to-cloudwatch-logs-lambda/tree/0.1.0
+[0.1.1]: https://github.com/robertpeteuil/terraform-aws-sns-to-cloudwatch-logs-lambda/compare/0.1.0...0.1.1
+[0.1.2]: https://github.com/robertpeteuil/terraform-aws-sns-to-cloudwatch-logs-lambda/compare/0.1.1...0.1.2
+[0.1.3]: https://github.com/robertpeteuil/terraform-aws-sns-to-cloudwatch-logs-lambda/compare/0.1.2...0.1.3
+[0.2.0]: https://github.com/robertpeteuil/terraform-aws-sns-to-cloudwatch-logs-lambda/compare/0.1.3...0.2.0
+[0.2.1]: https://github.com/robertpeteuil/terraform-aws-sns-to-cloudwatch-logs-lambda/compare/0.2.0...0.2.1
+[0.2.2]: https://github.com/robertpeteuil/terraform-aws-sns-to-cloudwatch-logs-lambda/compare/0.2.1...0.2.2
+[0.2.3]: https://github.com/robertpeteuil/terraform-aws-sns-to-cloudwatch-logs-lambda/compare/0.2.2...0.2.3
+[0.2.4]: https://github.com/robertpeteuil/terraform-aws-sns-to-cloudwatch-logs-lambda/compare/0.2.3...0.2.4
+[0.2.5]: https://github.com/robertpeteuil/terraform-aws-sns-to-cloudwatch-logs-lambda/compare/0.2.4...0.2.5
+[0.2.6]: https://github.com/robertpeteuil/terraform-aws-sns-to-cloudwatch-logs-lambda/compare/0.2.5...0.2.6
+[1.0.0]: https://github.com/robertpeteuil/terraform-aws-sns-to-cloudwatch-logs-lambda/compare/0.2.6...1.0.0
+[1.0.1]: https://github.com/robertpeteuil/terraform-aws-sns-to-cloudwatch-logs-lambda/compare/1.0.0...1.0.1
+[2.0.0]: https://github.com/robertpeteuil/terraform-aws-sns-to-cloudwatch-logs-lambda/compare/1.0.1...2.0.0
