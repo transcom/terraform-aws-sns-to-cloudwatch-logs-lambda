@@ -173,6 +173,7 @@ data "aws_iam_policy_document" "lambda_cloudwatch_logs_policy" {
       "logs:CreateLogStream",
       "logs:CreateLogGroup",
       "logs:PutLogEvents",
+      "logs:DescribeLogGroups",
     ]
 
     resources = ["*"]
