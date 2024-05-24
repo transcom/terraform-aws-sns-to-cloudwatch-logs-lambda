@@ -74,7 +74,7 @@ module "sns_logger" {
 | lambda_description | Lambda Function Description | string | `Route SNS messages to CloudWatch Logs` | no |
 | lambda_tags | Mapping of Tags to assign to Lambda function | map | `{}` | no |
 | lambda_publish_func | Publish Lambda Function | string | `false` | no |
-| lambda_runtime | Lambda runtime for Function | string | `python3.8` | no |
+| lambda_runtime | Lambda runtime for Function | string | `python3.11` | no |
 | lambda_timeout | Function time-out (seconds) | string | `3` | no |
 | lambda_mem_size | Function RAM assigned (MB) | string | `128` | no |
 | create_warmer_event | Create CloudWatch trigger event to prevent hibernation | string | `false` | no |
@@ -132,7 +132,7 @@ No modules.
 | <a name="input_lambda_func_name"></a> [lambda\_func\_name](#input\_lambda\_func\_name) | Name to assign to Lambda Function. | `string` | `"SNStoCloudWatchLogs"` | no |
 | <a name="input_lambda_mem_size"></a> [lambda\_mem\_size](#input\_lambda\_mem\_size) | Amount of RAM (in MB) assigned to the function. The default (and minimum) is 128MB, and the maximum is 3008MB. | `number` | `128` | no |
 | <a name="input_lambda_publish_func"></a> [lambda\_publish\_func](#input\_lambda\_publish\_func) | Boolean flag that determines if Lambda function is published as a version. | `bool` | `false` | no |
-| <a name="input_lambda_runtime"></a> [lambda\_runtime](#input\_lambda\_runtime) | Lambda runtime to use for the function. | `string` | `"python3.8"` | no |
+| <a name="input_lambda_runtime"></a> [lambda\_runtime](#input\_lambda\_runtime) | Lambda runtime to use for the function. | `string` | `"python3.11"` | no |
 | <a name="input_lambda_tags"></a> [lambda\_tags](#input\_lambda\_tags) | A mapping of tags to assign to Lambda Function. | `map` | `{}` | no |
 | <a name="input_lambda_timeout"></a> [lambda\_timeout](#input\_lambda\_timeout) | Number of seconds that the function can run before timing out. The AWS default is 3s and the maximum runtime is 5m | `number` | `3` | no |
 | <a name="input_log_group_name"></a> [log\_group\_name](#input\_log\_group\_name) | Name of CloudWatch Log Group created or used (if previously created). | `string` | n/a | yes |
